@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: hystrix-server
+  cloud:
+    config:
+      uri: http://config.dev.unicoob.local
+      enabled: true
